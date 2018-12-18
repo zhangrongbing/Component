@@ -39,7 +39,9 @@
     [self presentViewController:dialog animated:YES completion:^(){
         LC_DebugLog(@"Dialog 展示完成");
     }];
-    ## SheetController 抽屉菜单使用方法
+    
+## SheetController 抽屉菜单使用方法
+    
     SheetAction *takePhotosAction = [SheetAction actionWithTitle:@"拍照" image:nil handler:^(SheetAction *action) {
         LC_DebugLog(@"拍照");
     }];
