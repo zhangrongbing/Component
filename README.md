@@ -5,6 +5,8 @@
 ### 效果图
 
 ![Image text](https://github.com/zhangrongbing/Component/blob/master/img-folder/Dialog.png)
+![Image text](https://github.com/zhangrongbing/Component/blob/master/img-folder/Dialog1.png)
+![Image text](https://github.com/zhangrongbing/Component/blob/master/img-folder/Dialog2.png)
 
     SharedAction *WXFriend = [SharedAction actionWithTitle:@"微信好友" image:[UIImage imageNamed:@"shared_微信好友"] handler:^(SharedAction *action) {
         LC_DebugLog(@"微信好友");
