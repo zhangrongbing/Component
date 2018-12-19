@@ -2,6 +2,10 @@
 组件库
 ## SharedViewController 分享菜单使用方法
 
+### 效果图
+
+![Image text](https://github.com/zhangrongbing/Component/blob/master/img-folder/Dialog.png)
+
     SharedAction *WXFriend = [SharedAction actionWithTitle:@"微信好友" image:[UIImage imageNamed:@"shared_微信好友"] handler:^(SharedAction *action) {
         LC_DebugLog(@"微信好友");
     }];
@@ -20,8 +24,11 @@
 
 ## DialogController 提示框使用方法
 
+### 效果图
+
+![Image text](https://github.com/zhangrongbing/Component/blob/master/img-folder/Dialog.png)
+
     DialogController *dialog = [DialogController dialogControllerWithTitle:@"标题" message:@"我就是内容了我就是内容了我就是内容了我就是内容了我就是内容了我就是内容了"];
-    
     DialogAction *cancelAction = [DialogAction actionWithTitle:@"action1" handler:^(DialogAction * _Nonnull action) {
         LC_DebugLog(@"action1");
     }];
@@ -41,7 +48,11 @@
     }];
     
 ## SheetController 抽屉菜单使用方法
-    
+
+### 效果图
+
+![Image text](https://github.com/zhangrongbing/Component/blob/master/img-folder/Sheet.png)
+
     SheetAction *takePhotosAction = [SheetAction actionWithTitle:@"拍照" image:nil handler:^(SheetAction *action) {
         LC_DebugLog(@"拍照");
     }];
