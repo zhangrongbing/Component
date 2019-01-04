@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		58F3BA1C21C8C6C20073D7D4 /* ComponentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComponentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F3BA1C21C8C6C20073D7D4 /* Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Component.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F3BA1F21C8C6C20073D7D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58F3BA2021C8C6C20073D7D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		58F3BA2221C8C6C20073D7D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		58F3BA1321C8C6C20073D7D4 = {
 			isa = PBXGroup;
 			children = (
-				58F3BA1E21C8C6C20073D7D4 /* ComponentDemo */,
+				58F3BA1E21C8C6C20073D7D4 /* Component */,
 				58F3BA1D21C8C6C20073D7D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,12 +64,12 @@
 		58F3BA1D21C8C6C20073D7D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58F3BA1C21C8C6C20073D7D4 /* ComponentDemo.app */,
+				58F3BA1C21C8C6C20073D7D4 /* Component.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58F3BA1E21C8C6C20073D7D4 /* ComponentDemo */ = {
+		58F3BA1E21C8C6C20073D7D4 /* Component */ = {
 			isa = PBXGroup;
 			children = (
 				58F3BA4121C8C8D20073D7D4 /* Category */,
@@ -86,7 +86,7 @@
 				58F3BA2D21C8C6C30073D7D4 /* Info.plist */,
 				58F3BA2E21C8C6C30073D7D4 /* main.m */,
 			);
-			path = ComponentDemo;
+			path = Component;
 			sourceTree = "<group>";
 		};
 		58F3BA3521C8C7C80073D7D4 /* SharedViewController */ = {
@@ -138,9 +138,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58F3BA1B21C8C6C20073D7D4 /* ComponentDemo */ = {
+		58F3BA1B21C8C6C20073D7D4 /* Component */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58F3BA3221C8C6C30073D7D4 /* Build configuration list for PBXNativeTarget "ComponentDemo" */;
+			buildConfigurationList = 58F3BA3221C8C6C30073D7D4 /* Build configuration list for PBXNativeTarget "Component" */;
 			buildPhases = (
 				58F3BA1821C8C6C20073D7D4 /* Sources */,
 				58F3BA1921C8C6C20073D7D4 /* Frameworks */,
@@ -150,9 +150,9 @@
 			);
 			dependencies = (
 			);
-			name = ComponentDemo;
+			name = Component;
 			productName = ComponentDemo;
-			productReference = 58F3BA1C21C8C6C20073D7D4 /* ComponentDemo.app */;
+			productReference = 58F3BA1C21C8C6C20073D7D4 /* Component.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -169,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58F3BA1721C8C6C20073D7D4 /* Build configuration list for PBXProject "ComponentDemo" */;
+			buildConfigurationList = 58F3BA1721C8C6C20073D7D4 /* Build configuration list for PBXProject "Component" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -182,7 +182,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58F3BA1B21C8C6C20073D7D4 /* ComponentDemo */,
+				58F3BA1B21C8C6C20073D7D4 /* Component */,
 			);
 		};
 /* End PBXProject section */
@@ -348,13 +348,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6YRG733XN2;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
-				INFOPLIST_FILE = ComponentDemo/Info.plist;
+				INFOPLIST_FILE = Component/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lovcreate.component.ComponentDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovcreate.component.Component;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,13 +367,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6YRG733XN2;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
-				INFOPLIST_FILE = ComponentDemo/Info.plist;
+				INFOPLIST_FILE = Component/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lovcreate.component.ComponentDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovcreate.component.Component;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,7 +382,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58F3BA1721C8C6C20073D7D4 /* Build configuration list for PBXProject "ComponentDemo" */ = {
+		58F3BA1721C8C6C20073D7D4 /* Build configuration list for PBXProject "Component" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58F3BA3021C8C6C30073D7D4 /* Debug */,
@@ -391,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58F3BA3221C8C6C30073D7D4 /* Build configuration list for PBXNativeTarget "ComponentDemo" */ = {
+		58F3BA3221C8C6C30073D7D4 /* Build configuration list for PBXNativeTarget "Component" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58F3BA3321C8C6C30073D7D4 /* Debug */,

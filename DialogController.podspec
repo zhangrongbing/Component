@@ -89,9 +89,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "ComponentDemo/DialogController/*.{h,m}"
+  spec.source_files  = "Classes", "Component/DialogController/*.{h,m}"
 spec.subspec 'UIStackView+Separator' do |ss|
-ss.source_files = "ComponentDemo/Category/UIStackView/*.{h,m}"
+ss.source_files = "Component/Category/UIStackView/*.{h,m}"
 end
 # spec.exclude_files = "Classes/Exclude"
 
