@@ -24,8 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC 这是一个提示框,其用法类似系统的UIAlertController，加入了一些其他的特殊属性。
-                   DESC
+# spec.description  = <<-DESC 这是一个提示框,其用法类似系统的UIAlertController，加入了一些其他的特殊属性。DESC
 
   spec.homepage     = "https://github.com/zhangrongbing"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -90,7 +89,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Component/ComponentDemo/DialogController/*.{h,m}"
+  spec.source_files  = "Classes", "ComponentDemo/DialogController/*.{h,m}"
+spec.subspec 'UIStackView+Separator' do |ss|
+ss.source_files = "ComponentDemo/Category/UIStackView/*.{h,m}"
+end
 # spec.exclude_files = "Classes/Exclude"
 
 # spec.public_header_files = ""
