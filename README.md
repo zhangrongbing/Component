@@ -1,5 +1,5 @@
 # Component
-组件库
+组件库(持续更新中...)
 ## SharedViewController 分享菜单使用方法
 
 ### 效果图
@@ -25,7 +25,7 @@
     [self presentViewController:controller animated:YES completion:nil];
 
 ## DialogController 提示框使用方法
-
+### 加载方法 pod 'DialogController', '~>0.0.2'
 ### 效果图
 
 ![Image text](https://github.com/zhangrongbing/Component/blob/master/img-folder/Dialog.png)
