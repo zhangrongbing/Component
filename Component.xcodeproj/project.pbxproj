@@ -72,7 +72,6 @@
 		58F3BA1E21C8C6C20073D7D4 /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				58F3BA4121C8C8D20073D7D4 /* Category */,
 				58F3BA3D21C8C8B10073D7D4 /* SheetController */,
 				58F3BA3621C8C8880073D7D4 /* DialogController */,
 				58F3BA3521C8C7C80073D7D4 /* SharedViewController */,
@@ -101,6 +100,8 @@
 		58F3BA3621C8C8880073D7D4 /* DialogController */ = {
 			isa = PBXGroup;
 			children = (
+				58F3BA4321C8C8E20073D7D4 /* UIStackView+Separator.h */,
+				58F3BA4421C8C8E20073D7D4 /* UIStackView+Separator.m */,
 				58F3BA3821C8C8910073D7D4 /* DialogController.h */,
 				58F3BA3721C8C8910073D7D4 /* DialogController.m */,
 			);
@@ -116,23 +117,6 @@
 				58F3BA3E21C8C8CB0073D7D4 /* SheetController.m */,
 			);
 			path = SheetController;
-			sourceTree = "<group>";
-		};
-		58F3BA4121C8C8D20073D7D4 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				58F3BA4221C8C8E20073D7D4 /* UIStackView */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		58F3BA4221C8C8E20073D7D4 /* UIStackView */ = {
-			isa = PBXGroup;
-			children = (
-				58F3BA4321C8C8E20073D7D4 /* UIStackView+Separator.h */,
-				58F3BA4421C8C8E20073D7D4 /* UIStackView+Separator.m */,
-			);
-			path = UIStackView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

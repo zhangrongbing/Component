@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DialogController"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "一个类似系统UIAlertController的提示框"
 
   # This description is used to generate tags and improve search results.
@@ -90,9 +90,6 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "Classes", "Component/DialogController/*.{h,m}"
-spec.subspec 'UIStackView+Separator' do |ss|
-ss.source_files = "Component/Category/UIStackView/*.{h,m}"
-end
 # spec.exclude_files = "Classes/Exclude"
 
 # spec.public_header_files = ""
